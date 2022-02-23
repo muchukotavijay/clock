@@ -1,0 +1,13 @@
+.digital {
+    height: 50px;
+    margin: 20px;
+    border: 5px solid;
+    background-color: #000;
+    font-size: 36px;
+}
+
+span {
+    color: #fff;
+    width: 100%;
+    margin: 10px;
+}

@@ -1,0 +1,43 @@
+.analog {
+    width: 30rem;
+    height: 30rem;
+    background: linear-gradient( 180deg, black, black 70%, grey 30%);
+    border-radius: 50%;
+    position: relative;
+}
+
+.hour {
+    position: absolute;
+    background: #fff;
+    border-radius: 25px;
+    transform-origin: bottom;
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+}
+
+
+/* similar is for the minute and second hand */
+
+.minute {
+    position: absolute;
+    background: #fff;
+    border-radius: 25px;
+    transform-origin: bottom;
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+}
+
+.second {
+    position: absolute;
+    background: #fff;
+    border-radius: 25px;
+    transform-origin: bottom;
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+}
